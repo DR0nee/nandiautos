@@ -1,0 +1,284 @@
+
+
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  font-family: 'Rye' , sans-serif;
+  background-color: cornsilk;
+  height: 100%;
+}
+
+
+/* menu Css  */
+
+nav {
+  background-color: gray;
+}
+
+#navbarNavAltMarkup {
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#navbarNavAltMarkup a {
+  padding: 0.4rem 3.5rem ;
+  transition: background-color 0.2s ;
+  border-radius: 30px;
+  color: white;
+}
+
+#navbarNavAltMarkup a:hover {
+  background-color: cadetblue;
+  border: solid white 1px;
+}
+
+#navbarNavAltMarkup a:active {
+  transform: translateY(2px);
+  border: solid white 1px;
+}
+
+#navbarNavAltMarkup i {
+  color: #4267b2;
+}
+
+#logocar {
+  width: 4rem;
+  padding-right: 0.5rem;
+}
+
+.display-4 {
+  font-family: 'Bungee';
+
+}
+
+@media only screen and (max-width: 1300px) {
+  #navbarNavAltMarkup a {
+    padding: 1rem 3rem ;
+ }
+}
+
+@media only screen and (max-width: 1000px) {
+  #navbarNavAltMarkup a {
+    max-width: 10rem;
+ }
+}
+/* jumbotron */
+
+.jumbotron {
+  background-image: url(../images/jumbotron.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0 ;
+}
+
+
+#Phonenumber {
+  margin-top: 3rem;
+  transition: all 0.5s ease-in  ;
+  max-width: 30rem;
+
+}
+
+#Phonenumber:hover {
+  transform: scaleY(2);
+  font-size: 3rem;
+  color: orange;
+}
+
+
+
+@media only screen and (max-width: 470px) {
+  .jumbotron {
+    background-position: center;
+  }
+  .jumbotron h2, .jumbotron p {
+    color: orange;
+  }
+}
+/* Footer */
+
+
+#bottom {
+  background-color: lightgrey;
+  padding-top: 1rem;
+<<<<<<< HEAD
+  height: 4rem;
+=======
+  height: 6rem;
+>>>>>>> e04620e5d1dd291845480db0abb2e3743ef8341d
+}
+
+
+#bottom p {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 860px) {
+  #bottom  {
+    display: none;
+  }
+}
+
+
+/*      KiezaNandi Css */
+
+
+.mainsection {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  background-color: lightgrey;
+  background-repeat: repeat;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+
+.details h2 {
+  color: black;
+  padding-bottom: 1rem;
+}
+
+.details p {
+  color: black;
+}
+
+.details span {
+  overflow: inherit;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.fancy {
+  text-decoration: underline;
+}
+
+/* arak Css */
+
+.orange {
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+.arakmain {
+  margin-bottom: 4.7rem;
+}
+
+@media only screen and (max-width: 430px) {
+  .details h2  {
+    padding-top: 0.5rem;
+  }
+}
+
+
+/* nekik segitettem Css */
+
+.mainline {
+  padding: 1rem;
+}
+
+.elsosor {
+ justify-content: space-between;
+}
+
+.masodiksor {
+  padding-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.masodiksor div {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.arcok {
+  max-height:  50%;
+  max-width: 50%;
+  border-radius: 50px;
+}
+
+.keret {
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 3px solid black;
+  transition: all 0.5s ease-in 0.2s;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.keret:hover {
+  background-color: brown;
+  color:white
+}
+
+.keret p {
+  padding-top: 1rem;
+}
+
+.curtis {
+  padding-bottom: 1rem;
+}
+
+.szarvas, .caeser {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+
+@media only screen and (max-width: 470px) {
+  .keret  {
+    max-width: 20rem;
+    max-height: 40%;
+  }
+
+  .keret p {
+    font-size: 0.8rem;
+  }
+
+  .elsosor {
+    justify-content: center;
+  }
+
+  .masodiksor {
+    justify-content: center;
+  }
+
+}
+
+ /* emlekezetes */
+
+.autoplaypic {
+  border: solid lightgrey 10px;
+  border-radius: 30px;
+  background-color: seashell;
+  padding-top: 1rem;
+  max-height: 70%;
+  max-width: 70%;
+  margin: auto;
+}
+
+ .autoplaypic p {
+   font-size: 2rem;
+   padding-top: 1rem;
+ }
+
+.emlekezetesfooter {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 470px) {
+  .autoplaypic p {
+    font-size: 1rem;
+  }
+}
